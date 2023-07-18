@@ -1,0 +1,116 @@
+body {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    color: black;
+    font-weight: 700;
+}
+*::-webkit-scrollbar {
+    width: 17px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: rgb(240, 207, 166);
+    border-radius: 20px;
+  }
+th {
+    background-color: rgb(243, 191, 128);
+}
+
+td {
+    border: 3em solid transparent;
+    background-color: rgb(255, 226, 189);
+
+}
+
+table {
+    border: 2px solid rgb(255, 140, 0);
+    display: inline;
+    border-radius: 15px;
+} 
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+    color: white;
+    font-size: medium;
+    font-weight: 700;
+}
+
+#excluir {
+    background-color: rgb(255, 74, 74);
+    border-color: brown;
+
+}
+
+#editar,
+#editarModal {
+    background-color: #f98619;
+    border-color: #984e08d6;
+}
+
+#modal, #modalcadastrar{
+    background-color: rgba(243, 191, 128, 0.477);
+    width: 700px;
+    height: 500px;
+    margin-top: -120px;
+    display: none;
+    padding: 1em;
+}
+
+input {
+    text-align: center;
+    height: 60%;
+    border-radius: 15px;
+    border-color: rgb(188, 175, 158);
+    background-color: rgba(248, 229, 205, 0.512);
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+#editarModal,
+#btnClose {
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: medium;
+    font-weight: 700;
+    width: 50%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#btnClose {
+    margin-right: 0;
+    width: 20px;
+    height: 20px;
+}
+#cadastrar, #cadastrarModal{
+    background-color: green;
+    height: 50%;
+    margin-top: -2.5%;
+    margin-left: -95px;
+}
+#cadastrarModal{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-block: auto;
+}
+h3 {
+    margin-block: auto;
+    margin: auto;
+    margin-top: -50px;
+    font-size: 1.5em;
+    color: currentColor;
+}
